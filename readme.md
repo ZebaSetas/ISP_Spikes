@@ -1,5 +1,2 @@
-Para la genereración de este proyecto, se siguieron éstas guías:
-
- - https://kotlinlang.org/docs/tutorials/getting-started.html
-
-Para este
+1. Descargar Android Studio https://developer.android.com/studio/
+2.
