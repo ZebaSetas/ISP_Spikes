@@ -42,7 +42,7 @@
         app:layout_constraintVertical_bias="0.125" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/changeView_button"
         android:layout_width="90dp"
         android:layout_height="60dp"
         android:layout_marginStart="44dp"
@@ -80,7 +80,7 @@
         android:text="Button6"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
+        app:layout_constraintTop_toBottomOf="@+id/changeView_button"
         app:layout_constraintVertical_bias="0.032" />
 
 </android.support.constraint.ConstraintLayout>
