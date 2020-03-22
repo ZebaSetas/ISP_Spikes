@@ -7,7 +7,6 @@ import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
-import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -41,10 +40,11 @@ class MainActivity : AppCompatActivity() {
 
     fun randomMe(view: View){
         val randomIntent = Intent(this, SecondActivity::class.java)
-        val countString = textView.text.toString()
-        val count :Int = 0
+        val showCountTextView = findViewById<TextView>(R.id.textView)
+        val countString = showCountTextView.text.toString()
+        var count :Int = 0
         try {
-            val count = Integer.parseInt(countString)
+            count = Integer.parseInt(countString)
         }catch (e:Exception){
             println("Todavía no había números baby!!!")
         }

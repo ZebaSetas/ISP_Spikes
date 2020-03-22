@@ -21,7 +21,7 @@
     <Button
         android:id="@+id/toast_button"
         android:layout_width="92dp"
-        android:layout_height="60dp"
+        android:layout_height="70dp"
         android:layout_marginStart="44dp"
         android:layout_marginTop="104dp"
         android:onClick="toastMe"
@@ -32,7 +32,7 @@
     <Button
         android:id="@+id/notificaction_button"
         android:layout_width="92dp"
-        android:layout_height="60dp"
+        android:layout_height="70dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="28dp"
         android:text="Notificar Push"
@@ -46,11 +46,11 @@
     <Button
         android:id="@+id/number_button"
         android:layout_width="92dp"
-        android:layout_height="60dp"
+        android:layout_height="70dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="96dp"
         android:onClick="countMe"
-        android:text="Prueba Contar"
+        android:text="Prueba Incrementar"
         app:layout_constraintBottom_toTopOf="@+id/camera_button"
         app:layout_constraintStart_toEndOf="@+id/toast_button"
         app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -60,7 +60,7 @@
     <Button
         android:id="@+id/camera_button"
         android:layout_width="92dp"
-        android:layout_height="60dp"
+        android:layout_height="70dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="88dp"
         android:text="Sacar foto!"
@@ -70,11 +70,11 @@
     <Button
         android:id="@+id/changeView_button"
         android:layout_width="92dp"
-        android:layout_height="60dp"
+        android:layout_height="70dp"
         android:layout_marginStart="28dp"
         android:layout_marginTop="104dp"
         android:onClick="randomMe"
-        android:text="Ir a Random!"
+        android:text="Prueba cambiar ventana!"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/number_button"
@@ -83,7 +83,7 @@
     <Button
         android:id="@+id/map_button"
         android:layout_width="92dp"
-        android:layout_height="60dp"
+        android:layout_height="70dp"
         android:layout_marginTop="40dp"
         android:layout_marginEnd="36dp"
         android:text="Ir al Mapa!"
@@ -91,5 +91,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/changeView_button"
         app:layout_constraintVertical_bias="0.043" />
+
+    <Button
+        android:id="@+id/button"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:text="Ir a Login"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
