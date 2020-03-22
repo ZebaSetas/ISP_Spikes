@@ -95,7 +95,10 @@ obj/
 .idea/dynamic.xml
 .idea/uiDesigner.xml
 .idea/assetWizardSettings.xml
-
+./idea/**
+*/idea/**
+./idea/
+.idea/kotlinCodeInsightSettings.xml
 # OS-specific files
 .DS_Store
 .DS_Store?
