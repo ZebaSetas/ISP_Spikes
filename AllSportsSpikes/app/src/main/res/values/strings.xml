@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AllSportsSpikes</string>
+    <string name="random_heading">Aquí tenemos un valor randómico entre 0 y %1d"</string>
+    <string name="init_text">Soy un número</string>
 </resources>
