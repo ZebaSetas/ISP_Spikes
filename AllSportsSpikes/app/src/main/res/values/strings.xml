@@ -2,4 +2,7 @@
     <string name="app_name">AllSportsSpikes</string>
     <string name="random_heading">Aquí tenemos un valor randómico entre 0 y %1d"</string>
     <string name="init_text">Soy un número</string>
+    <string name="facebook_application_id" translatable="false">991126181282218</string>
+    <string name="facebook_login_protocol_schemme" translatable="false">fb991126181282218</string>
 </resources>
+

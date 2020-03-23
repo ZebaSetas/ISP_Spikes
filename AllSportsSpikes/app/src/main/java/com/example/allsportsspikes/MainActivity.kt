@@ -51,4 +51,9 @@ class MainActivity : AppCompatActivity() {
         randomIntent.putExtra(SecondActivity.TOTAL_COUNT, count)
         startActivity(randomIntent)
     }
+
+    fun login(view: View){
+        val randomIntent = Intent(this, LoginActivity::class.java)
+        startActivity(randomIntent)
+    }
 }

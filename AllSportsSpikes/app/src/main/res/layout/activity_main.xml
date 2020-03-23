@@ -99,6 +99,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="184dp"
         android:text="Ir a Login"
+        android:onClick="login"
         app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

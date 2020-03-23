@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1017160136021",
+    "firebase_url": "https://allsportspikes.firebaseio.com",
+    "project_id": "allsportspikes",
+    "storage_bucket": "allsportspikes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017160136021:android:f054d14339a682e6e0abdc",
+        "android_client_info": {
+          "package_name": "com.example.allsportsspikes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017160136021-gvek0c0mmvqleiqrv7knlk4q9cj7i9eu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.allsportsspikes",
+            "certificate_hash": "e4aa93c4691470ca7aa50bdb71f4e3e6a208eaf9"
+          }
+        },
+        {
+          "client_id": "1017160136021-aq1cvno3blrtft7cdj4n1h8401hikscv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYEwq4ij-qJiByyEE_UkU6AbCQEIwpm-8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017160136021-aq1cvno3blrtft7cdj4n1h8401hikscv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
